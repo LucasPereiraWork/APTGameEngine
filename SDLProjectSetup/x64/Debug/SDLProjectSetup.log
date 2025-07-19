@@ -1,0 +1,103 @@
+﻿  glad.c
+  BasicObject.cpp
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\GameObject.h(34,21): warning C4251: 'AGPT::GameObject::tag': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::GameObject'
+  (compilando o arquivo fonte 'BasicObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      consulte a declaração de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\BasicObject.h(31,31): warning C4251: 'AGPT::BasicObject::frames': 'std::vector<SDL_Rect,std::allocator<SDL_Rect>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::BasicObject'
+  (compilando o arquivo fonte 'BasicObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      consulte a declaração de 'std::vector<SDL_Rect,std::allocator<SDL_Rect>>'
+  
+  ControlledBasicObject.cpp
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\GameObject.h(34,21): warning C4251: 'AGPT::GameObject::tag': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::GameObject'
+  (compilando o arquivo fonte 'ControlledBasicObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      consulte a declaração de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\BasicObject.h(31,31): warning C4251: 'AGPT::BasicObject::frames': 'std::vector<SDL_Rect,std::allocator<SDL_Rect>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::BasicObject'
+  (compilando o arquivo fonte 'ControlledBasicObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      consulte a declaração de 'std::vector<SDL_Rect,std::allocator<SDL_Rect>>'
+  
+  GameObject.cpp
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\GameObject.h(34,21): warning C4251: 'AGPT::GameObject::tag': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::GameObject'
+  (compilando o arquivo fonte 'GameObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      consulte a declaração de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+  Origem.cpp
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\GameObject.h(34,21): warning C4251: 'AGPT::GameObject::tag': 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::GameObject'
+  (compilando o arquivo fonte 'Origem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\xstring(527,7):
+      consulte a declaração de 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\BasicObject.h(31,31): warning C4251: 'AGPT::BasicObject::frames': 'std::vector<SDL_Rect,std::allocator<SDL_Rect>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::BasicObject'
+  (compilando o arquivo fonte 'Origem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      consulte a declaração de 'std::vector<SDL_Rect,std::allocator<SDL_Rect>>'
+  
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\Origem.h(44,31): warning C4251: 'AGPT::Origem::pImpl': 'std::unique_ptr<AGPT::Origem::Impl,std::default_delete<AGPT::Origem::Impl>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::Origem'
+  (compilando o arquivo fonte 'Origem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\memory(3335,7):
+      consulte a declaração de 'std::unique_ptr<AGPT::Origem::Impl,std::default_delete<AGPT::Origem::Impl>>'
+  
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\Origem.h(46,35): warning C4251: 'AGPT::Origem::m_removalQueue': 'std::vector<AGPT::BasicObject *,std::allocator<AGPT::BasicObject *>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::Origem'
+  (compilando o arquivo fonte 'Origem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      consulte a declaração de 'std::vector<AGPT::BasicObject *,std::allocator<AGPT::BasicObject *>>'
+  
+C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\SDLProjectSetup\Origem.h(47,35): warning C4251: 'AGPT::Origem::m_objectsToRemoveNextFrame': 'std::vector<AGPT::BasicObject *,std::allocator<AGPT::BasicObject *>>' precisa ter dll-interface para ser usada por clientes de 'AGPT::Origem'
+  (compilando o arquivo fonte 'Origem.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\vector(429,7):
+      consulte a declaração de 'std::vector<AGPT::BasicObject *,std::allocator<AGPT::BasicObject *>>'
+  
+  ShaderUtilities.cpp
+  stb_image.cpp
+  SurfaceUtils.cpp
+  Gerando Código...
+box2d.lib(b2_world.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_world.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_settings.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_settings.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_body.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_body.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_island.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_island.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_dynamic_tree.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_dynamic_tree.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_broad_phase.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_broad_phase.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_fixture.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_fixture.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_draw.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_draw.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_distance.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_distance.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_time_of_impact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_time_of_impact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_timer.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_timer.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_block_allocator.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_block_allocator.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_contact_manager.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_contact_manager.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_stack_allocator.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_stack_allocator.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_math.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_math.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_contact_solver.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_contact_solver.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_collision.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_collision.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_chain_circle_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_chain_circle_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_chain_polygon_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_chain_polygon_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_circle_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_circle_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_edge_circle_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_edge_circle_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_edge_polygon_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_edge_polygon_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_polygon_circle_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_polygon_circle_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_polygon_contact.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_polygon_contact.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_distance_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_distance_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_friction_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_friction_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_gear_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_gear_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_motor_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_motor_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_mouse_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_mouse_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_prismatic_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_prismatic_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_pulley_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_pulley_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_revolute_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_revolute_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_weld_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_weld_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_wheel_joint.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_wheel_joint.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_world_callbacks.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_world_callbacks.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_collide_edge.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_collide_edge.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_chain_shape.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_chain_shape.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_edge_shape.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_edge_shape.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_collide_circle.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_collide_circle.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+box2d.lib(b2_collide_polygon.obj) : warning LNK4099: PDB '' não foi encontrado 'box2d.lib(b2_collide_polygon.obj)' ou no ''; vinculando objeto quando quando sem nenhuma informação de depuração
+     Criando biblioteca C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\x64\Debug\SDLProjectSetup.lib e objeto C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\x64\Debug\SDLProjectSetup.exp
+  SDLProjectSetup.vcxproj -> C:\Users\lucas\Documents\AGPT_CG\SDLProjectSetup23\SDLProjectSetup2\SDLProjectSetup\x64\Debug\SDLProjectSetup.dll
